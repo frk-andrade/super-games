@@ -63,3 +63,35 @@
   line-height: 1rem;
   color: #2A7AE4;
 }
+
+.product-image {
+  width: 156px 
+}
+
+@media(min-width: 768px) and (max-width: 1440px) {
+  .produtos-individuais {
+    gap: 1.5rem;
+  }
+  .container,
+  .container-produtos {
+    padding: 0 1rem;
+  }
+  .product-image {
+    width: 164px 
+  }
+}
+
+@media(min-width: 1440px) {
+  .produtos-individuais {
+    gap: 1.6rem;
+  }
+  .container,
+  .container-produtos {
+    padding: 0 8rem;
+  }
+  .product-image {
+    width: 176px;
+    height: 174px;
+  }
+
+}

@@ -6,14 +6,20 @@
   font-family: 'Raleway', sans-serif;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1440px) {
   .App {
     max-width: 768px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
   .App {
-    max-width: 1024px;
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .App {
+    min-width: 1440px;
   }
 }

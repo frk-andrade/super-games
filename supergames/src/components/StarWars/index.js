@@ -22,6 +22,16 @@ const StarWars = () => {
       img: '../images/startWars4.png',
       name: 'Stormtrooper',
       price: 'R$ 329,00',
+    },
+    {
+      img: '../images/startWars5.png',
+      name: 'Darth Vader',
+      price: 'R$ 500,00',
+    },
+    {
+      img: '../images/startWars6.png',
+      name: 'Babby Yoda',
+      price: 'R$ 999,99',
     }
   ]
 
@@ -42,7 +52,7 @@ const StarWars = () => {
            {products.map((products) => {
               return(
                 <div className='produto'>
-                  <img src={products.img} alt='Produto'></img>
+                  <img className='product-image' src={products.img} alt='Produto'></img>
                   <p className='title'>{products.name}</p>
                   <p className='price'>{products.price}</p>
                   <p className='see-all'>Ver produto</p>
