@@ -48,7 +48,7 @@ const Consoles = () => {
 
         <section className='container-produtos'>
             <div className='produtos-individuais'>
-                {products.map(products) =>{
+                {products.map((products) => {
                     return(
                         <div className='produto'>
                             <img className='product-image' src={products.img} alt='Produto'></img>
@@ -57,8 +57,7 @@ const Consoles = () => {
                             <p className='see-all'>Ver produto</p>
                         </div>
                     )
-                }
-                }
+                })}
             </div>
         </section>
         </>
