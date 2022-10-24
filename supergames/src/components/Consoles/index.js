@@ -45,6 +45,24 @@ const Consoles = () => {
                 </a>
             </div>
         </section>
+
+        <section className='container-produtos'>
+            <div className='produtos-individuais'>
+                {products.map(products) =>{
+                    return(
+                        <div className='produto'>
+                            <img className='product-image' src={products.img} alt='Produto'></img>
+                            <p className='title'>{products.name}</p>
+                            <p className='price'>{products.price}</p>
+                            <p className='see-all'>Ver produto</p>
+                        </div>
+                    )
+                }
+                }
+            </div>
+        </section>
         </>
     )
 }
+
+export default Consoles;
