@@ -3,12 +3,7 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (min-width: 360px) and (max-width: 768px) {
-  .App {
-    max-width: 768px;
-  }
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 360px) and (max-width: 768px) {
