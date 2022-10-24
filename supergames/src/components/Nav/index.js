@@ -7,7 +7,7 @@ const Nav = () => {
       <button>
         Login
       </button>
-      <img src='../images/Icone.svg' alt='Buscar'></img>
+      <img className='search' src='../images/Icone.svg' alt='Buscar'></img>
     </nav>
   )
 };

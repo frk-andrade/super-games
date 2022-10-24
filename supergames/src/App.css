@@ -6,3 +6,21 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .App {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .App {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App {
+    max-width: 1024px;
+  }
+}
