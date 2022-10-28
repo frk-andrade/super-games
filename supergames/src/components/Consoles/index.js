@@ -5,12 +5,12 @@ const Consoles = () => {
     const products = [
         {
             img: '../images/game-boy.svg',
-            name: 'Console Game Boy',
+            name: 'Game Boy',
             price: 'R$ 400,00'
         },
         {
             img: '../images/joystick-nintendo.svg',
-            name: 'Joystick Nintendo Switch',
+            name: 'Joystick Nintendo',
             price: 'R$ 600,00'
         },
         {
@@ -20,17 +20,17 @@ const Consoles = () => {
         },
         {
             img: '../images/nintendo-console.svg',
-            name: ' Console Super Nintendo',
+            name: ' Super Nintendo',
             price: 'R$ 900,00'
         },
         {
             img: '../images/xbox.svg',
-            name: 'Console Xbox S',
+            name: 'Xbox S',
             price: 'R$ 5000,00'
         },
         {
             img: '../images/xbox2.svg',
-            name: 'Console Xbox x',
+            name: 'Xbox x',
             price: 'R$ 5000,00'
         }
     ]
