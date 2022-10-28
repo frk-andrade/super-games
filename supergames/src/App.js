@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Banner from './components/Banner';
 import StarWars from './components/StarWars';
 import Consoles from './components/Consoles';
+import Diversos from './components/Diversos/Diversos';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <StarWars />
       <Consoles />
+      <Diversos />
     </div>
   );
 }
