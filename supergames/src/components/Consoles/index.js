@@ -41,7 +41,7 @@ const Consoles = () => {
             <div className='produtos'>
                 <p>Ver tudo </p>
                 <a href='/'>
-                    <img src='../images/vector.svg' alt='Ver Tudo'></img>
+                    <img src='../images/vetor.svg' alt='Ver Tudo'></img>
                 </a>
             </div>
         </section>

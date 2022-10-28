@@ -3,6 +3,7 @@ import './reset.css';
 import Nav from './components/Nav';
 import Banner from './components/Banner';
 import StarWars from './components/StarWars';
+import Consoles from './components/Consoles';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Banner />
       <StarWars />
+      <Consoles />
     </div>
   );
 }
