@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import StarWars from './components/StarWars';
 import Consoles from './components/Consoles';
 import Diversos from './components/Diversos/Diversos';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <StarWars />
       <Consoles />
       <Diversos />
+      <Footer />
     </div>
   );
 }
