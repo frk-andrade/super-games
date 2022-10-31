@@ -10,6 +10,15 @@ const Footer = () => {
             <button>Nossas lojas</button>
             <button>Quero ser franqueado</button>
             <button>Anuncie aqui</button>
+            <form>
+                Fale Conosco
+                    <label>
+                        Nome:
+                            <input type="text" name="name" />
+                            <input type="textarea" name="textarea" />
+                    </label>
+                        <input type="submit" value="Enviar mensagem" />
+            </form>
         </div>
     )
 };
