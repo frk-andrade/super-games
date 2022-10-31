@@ -4,12 +4,12 @@ const Footer = () => {
     return (
         <div className='footer'>
             <img src='../images/logo.svg' alt='Logo'></img>
-            <button>Quem somos nós</button>
-            <button>Política de privacidade</button>
-            <button>Programa Fidelidade</button>
-            <button>Nossas lojas</button>
-            <button>Quero ser franqueado</button>
-            <button>Anuncie aqui</button>
+            <a>Quem somos nós</a>
+            <a>Política de privacidade</a>
+            <a>Programa Fidelidade</a>
+            <a>Nossas lojas</a>
+            <a>Quero ser franqueado</a>
+            <a>Anuncie aqui</a>
             <form>
                 Fale Conosco
                     <label>
