@@ -11,9 +11,24 @@
     background-color: #EAF2FD;
 }
 
-footer-form {
+.footer-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
+
+.footer-form p {
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700px;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@media(min-width: 768px) and (max-width: 1440px) {
+    .search {
+      display: none;
+    }
+  }
