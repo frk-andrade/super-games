@@ -6,6 +6,7 @@ import StarWars from './components/StarWars';
 import Consoles from './components/Consoles';
 import Diversos from './components/Diversos/Diversos';
 import Footer from './components/Footer';
+import Rodape from './components/Rodape';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Consoles />
       <Diversos />
       <Footer />
+      <Rodape />
     </div>
   );
 }
